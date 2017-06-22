@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B37118891DBFD072001B559E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37118881DBFD072001B559E /* AppDelegate.swift */; };
+		B371188E1DBFD073001B559E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B371188C1DBFD073001B559E /* Main.storyboard */; };
+		B37118911DBFD073001B559E /* Scott.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B371188F1DBFD073001B559E /* Scott.xcdatamodeld */; };
+		B37118931DBFD073001B559E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37118921DBFD073001B559E /* Assets.xcassets */; };
+		B37118961DBFD073001B559E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37118941DBFD073001B559E /* LaunchScreen.storyboard */; };
+		B37118A41DBFDA5D001B559E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37118A31DBFDA5D001B559E /* DashboardViewController.swift */; };
+		B37118A71DBFDD28001B559E /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37118A61DBFDD28001B559E /* Globals.swift */; };
+		B37118AD1DC049F9001B559E /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37118AC1DC049F9001B559E /* ScheduleCell.swift */; };
+		B37118AF1DC04A17001B559E /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37118AE1DC04A17001B559E /* JobCell.swift */; };
+		B37118B11DC0AF6D001B559E /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37118B01DC0AF6D001B559E /* JobViewController.swift */; };
+		B3BFBBDA1DC3578E00BDF96F /* JobCompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BFBBD91DC3578E00BDF96F /* JobCompleteVC.swift */; };
+		B3BFBBDC1DC357C200BDF96F /* SignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BFBBDB1DC357C200BDF96F /* SignatureViewController.swift */; };
+		B3DD1C9C1DC742CC00E761DE /* PPSSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD1C9B1DC742CC00E761DE /* PPSSignatureView.m */; };
+		CB23967B1DDD78DC006BBB3F /* SyncTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23967A1DDD78DC006BBB3F /* SyncTask.swift */; };
+		CBCE6D591DD2247B00B8B85A /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D231DD2247B00B8B85A /* AFError.swift */; };
+		CBCE6D5A1DD2247B00B8B85A /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D251DD2247B00B8B85A /* Alamofire.swift */; };
+		CBCE6D5B1DD2247B00B8B85A /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D261DD2247B00B8B85A /* DispatchQueue+Alamofire.swift */; };
+		CBCE6D5C1DD2247B00B8B85A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D271DD2247B00B8B85A /* MultipartFormData.swift */; };
+		CBCE6D5D1DD2247B00B8B85A /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D281DD2247B00B8B85A /* NetworkReachabilityManager.swift */; };
+		CBCE6D5E1DD2247B00B8B85A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D291DD2247B00B8B85A /* Notifications.swift */; };
+		CBCE6D5F1DD2247B00B8B85A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D2A1DD2247B00B8B85A /* ParameterEncoding.swift */; };
+		CBCE6D601DD2247B00B8B85A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D2B1DD2247B00B8B85A /* Request.swift */; };
+		CBCE6D611DD2247B00B8B85A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D2C1DD2247B00B8B85A /* Response.swift */; };
+		CBCE6D621DD2247B00B8B85A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D2D1DD2247B00B8B85A /* ResponseSerialization.swift */; };
+		CBCE6D631DD2247B00B8B85A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D2E1DD2247B00B8B85A /* Result.swift */; };
+		CBCE6D641DD2247B00B8B85A /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D2F1DD2247B00B8B85A /* ServerTrustPolicy.swift */; };
+		CBCE6D651DD2247B00B8B85A /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D301DD2247B00B8B85A /* SessionDelegate.swift */; };
+		CBCE6D661DD2247B00B8B85A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D311DD2247B00B8B85A /* SessionManager.swift */; };
+		CBCE6D671DD2247B00B8B85A /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D321DD2247B00B8B85A /* TaskDelegate.swift */; };
+		CBCE6D681DD2247B00B8B85A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D331DD2247B00B8B85A /* Timeline.swift */; };
+		CBCE6D691DD2247B00B8B85A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D341DD2247B00B8B85A /* Validation.swift */; };
+		CBCE6D6A1DD2247B00B8B85A /* BackgroundSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D351DD2247B00B8B85A /* BackgroundSync.swift */; };
+		CBCE6D6B1DD2247B00B8B85A /* BRDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D381DD2247B00B8B85A /* BRDatabase.m */; };
+		CBCE6D6C1DD2247B00B8B85A /* FMDatabase+BRDatabaseExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D3A1DD2247B00B8B85A /* FMDatabase+BRDatabaseExtensions.m */; };
+		CBCE6D6D1DD2247B00B8B85A /* CryptoBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D3C1DD2247B00B8B85A /* CryptoBot.swift */; };
+		CBCE6D6F1DD2247B00B8B85A /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D3E1DD2247B00B8B85A /* DataStore.swift */; };
+		CBCE6D701DD2247B00B8B85A /* FileDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D3F1DD2247B00B8B85A /* FileDelete.swift */; };
+		CBCE6D711DD2247B00B8B85A /* FileUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D401DD2247B00B8B85A /* FileUpload.swift */; };
+		CBCE6D721DD2247B00B8B85A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D431DD2247B00B8B85A /* FMDatabase.m */; };
+		CBCE6D731DD2247B00B8B85A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D451DD2247B00B8B85A /* FMDatabaseAdditions.m */; };
+		CBCE6D741DD2247B00B8B85A /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D461DD2247B00B8B85A /* FMDatabaseAdditionsVariadic.swift */; };
+		CBCE6D751DD2247B00B8B85A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D481DD2247B00B8B85A /* FMDatabasePool.m */; };
+		CBCE6D761DD2247B00B8B85A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D4A1DD2247B00B8B85A /* FMDatabaseQueue.m */; };
+		CBCE6D771DD2247B00B8B85A /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D4B1DD2247B00B8B85A /* FMDatabaseVariadic.swift */; };
+		CBCE6D781DD2247B00B8B85A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D4E1DD2247B00B8B85A /* FMResultSet.m */; };
+		CBCE6D791DD2247B00B8B85A /* JsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D4F1DD2247B00B8B85A /* JsonObject.swift */; };
+		CBCE6D7A1DD2247B00B8B85A /* NSDate+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D501DD2247B00B8B85A /* NSDate+Utilities.swift */; };
+		CBCE6D7B1DD2247B00B8B85A /* PingPong.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D511DD2247B00B8B85A /* PingPong.swift */; };
+		CBCE6D7C1DD2247B00B8B85A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D521DD2247B00B8B85A /* README.md */; };
+		CBCE6D7D1DD2247B00B8B85A /* DatabaseInstall.sql in Resources */ = {isa = PBXBuildFile; fileRef = CBCE6D541DD2247B00B8B85A /* DatabaseInstall.sql */; };
+		CBCE6D7E1DD2247B00B8B85A /* StashObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D551DD2247B00B8B85A /* StashObject.swift */; };
+		CBCE6D7F1DD2247B00B8B85A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D571DD2247B00B8B85A /* SwiftyJSON.swift */; };
+		CBCE6D801DD2247B00B8B85A /* SyncObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6D581DD2247B00B8B85A /* SyncObject.swift */; };
+		CBCE6D821DD224C100B8B85A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCE6D811DD224C100B8B85A /* libsqlite3.tbd */; };
+		CBD2306E1DD27E8300B60A5A /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2302C1DD27E8300B60A5A /* AES.swift */; };
+		CBD2306F1DD27E8300B60A5A /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2302D1DD27E8300B60A5A /* Array+Extension.swift */; };
+		CBD230711DD27E8300B60A5A /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2302F1DD27E8300B60A5A /* Bit.swift */; };
+		CBD230721DD27E8300B60A5A /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230301DD27E8300B60A5A /* BlockCipher.swift */; };
+		CBD230731DD27E8300B60A5A /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230321DD27E8300B60A5A /* BlockMode.swift */; };
+		CBD230741DD27E8300B60A5A /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230331DD27E8300B60A5A /* BlockModeOptions.swift */; };
+		CBD230751DD27E8300B60A5A /* BlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230341DD27E8300B60A5A /* BlockModeWorker.swift */; };
+		CBD230761DD27E8300B60A5A /* CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230351DD27E8300B60A5A /* CBC.swift */; };
+		CBD230771DD27E8300B60A5A /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230361DD27E8300B60A5A /* CFB.swift */; };
+		CBD230781DD27E8300B60A5A /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230371DD27E8300B60A5A /* CTR.swift */; };
+		CBD230791DD27E8300B60A5A /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230381DD27E8300B60A5A /* ECB.swift */; };
+		CBD2307A1DD27E8300B60A5A /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230391DD27E8300B60A5A /* OFB.swift */; };
+		CBD2307B1DD27E8300B60A5A /* PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2303A1DD27E8300B60A5A /* PCBC.swift */; };
+		CBD2307C1DD27E8300B60A5A /* RandomAccessBlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2303B1DD27E8300B60A5A /* RandomAccessBlockModeWorker.swift */; };
+		CBD2307D1DD27E8300B60A5A /* Blowfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2303C1DD27E8300B60A5A /* Blowfish.swift */; };
+		CBD2307E1DD27E8300B60A5A /* BytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2303D1DD27E8300B60A5A /* BytesSequence.swift */; };
+		CBD2307F1DD27E8300B60A5A /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2303E1DD27E8300B60A5A /* ChaCha20.swift */; };
+		CBD230801DD27E8300B60A5A /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2303F1DD27E8300B60A5A /* Checksum.swift */; };
+		CBD230811DD27E8300B60A5A /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230401DD27E8300B60A5A /* Cipher.swift */; };
+		CBD230821DD27E8300B60A5A /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230411DD27E8300B60A5A /* Collection+Extension.swift */; };
+		CBD230831DD27E8300B60A5A /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230421DD27E8300B60A5A /* Cryptors.swift */; };
+		CBD230841DD27E8300B60A5A /* CSArrayType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230431DD27E8300B60A5A /* CSArrayType+Extensions.swift */; };
+		CBD230851DD27E8300B60A5A /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230441DD27E8300B60A5A /* Digest.swift */; };
+		CBD230861DD27E8300B60A5A /* DigestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230451DD27E8300B60A5A /* DigestType.swift */; };
+		CBD230871DD27E8300B60A5A /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230471DD27E8300B60A5A /* AES+Foundation.swift */; };
+		CBD230881DD27E8300B60A5A /* Blowfish+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230481DD27E8300B60A5A /* Blowfish+Foundation.swift */; };
+		CBD230891DD27E8300B60A5A /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230491DD27E8300B60A5A /* ChaCha20+Foundation.swift */; };
+		CBD2308A1DD27E8300B60A5A /* CSArrayType+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2304A1DD27E8300B60A5A /* CSArrayType+Foundation.swift */; };
+		CBD2308B1DD27E8300B60A5A /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2304B1DD27E8300B60A5A /* Data+Extension.swift */; };
+		CBD2308C1DD27E8300B60A5A /* HMAC+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2304C1DD27E8300B60A5A /* HMAC+Foundation.swift */; };
+		CBD2308D1DD27E8300B60A5A /* Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2304D1DD27E8300B60A5A /* Rabbit+Foundation.swift */; };
+		CBD2308E1DD27E8300B60A5A /* String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2304E1DD27E8300B60A5A /* String+FoundationExtension.swift */; };
+		CBD2308F1DD27E8300B60A5A /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2304F1DD27E8300B60A5A /* Utils+Foundation.swift */; };
+		CBD230901DD27E8300B60A5A /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230501DD27E8300B60A5A /* Generics.swift */; };
+		CBD230911DD27E8300B60A5A /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230511DD27E8300B60A5A /* HMAC.swift */; };
+		CBD230921DD27E8300B60A5A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBD230521DD27E8300B60A5A /* Info.plist */; };
+		CBD230931DD27E8300B60A5A /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230531DD27E8300B60A5A /* Int+Extension.swift */; };
+		CBD230941DD27E8300B60A5A /* IntegerConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230541DD27E8300B60A5A /* IntegerConvertible.swift */; };
+		CBD230951DD27E8300B60A5A /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230551DD27E8300B60A5A /* MD5.swift */; };
+		CBD230961DD27E8300B60A5A /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230561DD27E8300B60A5A /* NoPadding.swift */; };
+		CBD230971DD27E8300B60A5A /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230571DD27E8300B60A5A /* Operators.swift */; };
+		CBD230981DD27E8300B60A5A /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230581DD27E8300B60A5A /* Padding.swift */; };
+		CBD230991DD27E8300B60A5A /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2305A1DD27E8300B60A5A /* PBKDF1.swift */; };
+		CBD2309A1DD27E8300B60A5A /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2305B1DD27E8300B60A5A /* PBKDF2.swift */; };
+		CBD2309B1DD27E8300B60A5A /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2305C1DD27E8300B60A5A /* PKCS5.swift */; };
+		CBD2309C1DD27E8300B60A5A /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2305D1DD27E8300B60A5A /* PKCS7.swift */; };
+		CBD2309D1DD27E8300B60A5A /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2305E1DD27E8300B60A5A /* Poly1305.swift */; };
+		CBD2309E1DD27E8300B60A5A /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2305F1DD27E8300B60A5A /* Rabbit.swift */; };
+		CBD2309F1DD27E8300B60A5A /* RandomAccessCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230601DD27E8300B60A5A /* RandomAccessCryptor.swift */; };
+		CBD230A01DD27E8300B60A5A /* RandomBytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230611DD27E8300B60A5A /* RandomBytesSequence.swift */; };
+		CBD230A11DD27E8300B60A5A /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230621DD27E8300B60A5A /* SecureBytes.swift */; };
+		CBD230A21DD27E8300B60A5A /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230631DD27E8300B60A5A /* SHA1.swift */; };
+		CBD230A31DD27E8300B60A5A /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230641DD27E8300B60A5A /* SHA2.swift */; };
+		CBD230A41DD27E8300B60A5A /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230651DD27E8300B60A5A /* SHA3.swift */; };
+		CBD230A51DD27E8300B60A5A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230661DD27E8300B60A5A /* String+Extension.swift */; };
+		CBD230A61DD27E8300B60A5A /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230671DD27E8300B60A5A /* UInt8+Extension.swift */; };
+		CBD230A71DD27E8300B60A5A /* UInt16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230681DD27E8300B60A5A /* UInt16+Extension.swift */; };
+		CBD230A81DD27E8300B60A5A /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230691DD27E8300B60A5A /* UInt32+Extension.swift */; };
+		CBD230A91DD27E8300B60A5A /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2306A1DD27E8300B60A5A /* UInt64+Extension.swift */; };
+		CBD230AA1DD27E8300B60A5A /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2306B1DD27E8300B60A5A /* Updatable.swift */; };
+		CBD230AB1DD27E8300B60A5A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2306C1DD27E8300B60A5A /* Utils.swift */; };
+		CBD230AC1DD27E8300B60A5A /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2306D1DD27E8300B60A5A /* ZeroPadding.swift */; };
+		CBD230AE1DD2805300B60A5A /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230AD1DD2805300B60A5A /* Authenticator.swift */; };
+		CBD230B01DD280E100B60A5A /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230AF1DD280E100B60A5A /* Ticket.swift */; };
+		CBD230B21DD2820600B60A5A /* TicketTechnician.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230B11DD2820600B60A5A /* TicketTechnician.swift */; };
+		CBD230B41DD282FD00B60A5A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230B31DD282FD00B60A5A /* User.swift */; };
+		CBD230B61DD283C400B60A5A /* MaterialItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230B51DD283C400B60A5A /* MaterialItem.swift */; };
+		CBD230B81DD2864300B60A5A /* CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230B71DD2864300B60A5A /* CheckListItem.swift */; };
+		CBD230BA1DD28B9800B60A5A /* DayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230B91DD28B9800B60A5A /* DayTime.swift */; };
+		CBD230BC1DD28BC100B60A5A /* WeekTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230BB1DD28BC100B60A5A /* WeekTime.swift */; };
+		CBD230C11DD4E97000B60A5A /* TechnicianDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD230C01DD4E97000B60A5A /* TechnicianDataFetch.swift */; };
+		E455B2031DED8FD3003346D7 /* NoTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455B2021DED8FD3003346D7 /* NoTicketCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBCE6D881DD2292400B8B85A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B37118851DBFD072001B559E /* Scott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scott.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37118881DBFD072001B559E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B371188D1DBFD073001B559E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B37118901DBFD073001B559E /* Scott.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scott.xcdatamodel; sourceTree = "<group>"; };
+		B37118921DBFD073001B559E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B37118951DBFD073001B559E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B37118971DBFD073001B559E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37118A31DBFDA5D001B559E /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardViewController.swift; path = Classes/DashboardViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		B37118A61DBFDD28001B559E /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = Classes/Globals.swift; sourceTree = "<group>"; };
+		B37118AC1DC049F9001B559E /* ScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleCell.swift; path = Classes/Cells/ScheduleCell.swift; sourceTree = "<group>"; };
+		B37118AE1DC04A17001B559E /* JobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobCell.swift; path = Classes/Cells/JobCell.swift; sourceTree = "<group>"; };
+		B37118B01DC0AF6D001B559E /* JobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobViewController.swift; path = Classes/JobViewController.swift; sourceTree = "<group>"; };
+		B3BFBBD91DC3578E00BDF96F /* JobCompleteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobCompleteVC.swift; path = Classes/JobCompleteVC.swift; sourceTree = "<group>"; };
+		B3BFBBDB1DC357C200BDF96F /* SignatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignatureViewController.swift; path = Classes/SignatureViewController.swift; sourceTree = "<group>"; };
+		B3DD1C9A1DC742CC00E761DE /* PPSSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSSignatureView.h; sourceTree = "<group>"; };
+		B3DD1C9B1DC742CC00E761DE /* PPSSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSSignatureView.m; sourceTree = "<group>"; };
+		B3DD1C9D1DC7430000E761DE /* Scott-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scott-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB23967A1DDD78DC006BBB3F /* SyncTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncTask.swift; sourceTree = "<group>"; };
+		CBCE6D231DD2247B00B8B85A /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		CBCE6D241DD2247B00B8B85A /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
+		CBCE6D251DD2247B00B8B85A /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		CBCE6D261DD2247B00B8B85A /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		CBCE6D271DD2247B00B8B85A /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		CBCE6D281DD2247B00B8B85A /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		CBCE6D291DD2247B00B8B85A /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		CBCE6D2A1DD2247B00B8B85A /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		CBCE6D2B1DD2247B00B8B85A /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		CBCE6D2C1DD2247B00B8B85A /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CBCE6D2D1DD2247B00B8B85A /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		CBCE6D2E1DD2247B00B8B85A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		CBCE6D2F1DD2247B00B8B85A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		CBCE6D301DD2247B00B8B85A /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		CBCE6D311DD2247B00B8B85A /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		CBCE6D321DD2247B00B8B85A /* TaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		CBCE6D331DD2247B00B8B85A /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		CBCE6D341DD2247B00B8B85A /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		CBCE6D351DD2247B00B8B85A /* BackgroundSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundSync.swift; sourceTree = "<group>"; };
+		CBCE6D371DD2247B00B8B85A /* BRDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDatabase.h; sourceTree = "<group>"; };
+		CBCE6D381DD2247B00B8B85A /* BRDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDatabase.m; sourceTree = "<group>"; };
+		CBCE6D391DD2247B00B8B85A /* FMDatabase+BRDatabaseExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+BRDatabaseExtensions.h"; sourceTree = "<group>"; };
+		CBCE6D3A1DD2247B00B8B85A /* FMDatabase+BRDatabaseExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+BRDatabaseExtensions.m"; sourceTree = "<group>"; };
+		CBCE6D3C1DD2247B00B8B85A /* CryptoBot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoBot.swift; sourceTree = "<group>"; };
+		CBCE6D3E1DD2247B00B8B85A /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		CBCE6D3F1DD2247B00B8B85A /* FileDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDelete.swift; sourceTree = "<group>"; };
+		CBCE6D401DD2247B00B8B85A /* FileUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUpload.swift; sourceTree = "<group>"; };
+		CBCE6D421DD2247B00B8B85A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CBCE6D431DD2247B00B8B85A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CBCE6D441DD2247B00B8B85A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CBCE6D451DD2247B00B8B85A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CBCE6D461DD2247B00B8B85A /* FMDatabaseAdditionsVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseAdditionsVariadic.swift; sourceTree = "<group>"; };
+		CBCE6D471DD2247B00B8B85A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		CBCE6D481DD2247B00B8B85A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		CBCE6D491DD2247B00B8B85A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CBCE6D4A1DD2247B00B8B85A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CBCE6D4B1DD2247B00B8B85A /* FMDatabaseVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseVariadic.swift; sourceTree = "<group>"; };
+		CBCE6D4C1DD2247B00B8B85A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		CBCE6D4D1DD2247B00B8B85A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CBCE6D4E1DD2247B00B8B85A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CBCE6D4F1DD2247B00B8B85A /* JsonObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonObject.swift; sourceTree = "<group>"; };
+		CBCE6D501DD2247B00B8B85A /* NSDate+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Utilities.swift"; sourceTree = "<group>"; };
+		CBCE6D511DD2247B00B8B85A /* PingPong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingPong.swift; sourceTree = "<group>"; };
+		CBCE6D521DD2247B00B8B85A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CBCE6D541DD2247B00B8B85A /* DatabaseInstall.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DatabaseInstall.sql; sourceTree = "<group>"; };
+		CBCE6D551DD2247B00B8B85A /* StashObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StashObject.swift; sourceTree = "<group>"; };
+		CBCE6D571DD2247B00B8B85A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CBCE6D581DD2247B00B8B85A /* SyncObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncObject.swift; sourceTree = "<group>"; };
+		CBCE6D811DD224C100B8B85A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CBD2302C1DD27E8300B60A5A /* AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
+		CBD2302D1DD27E8300B60A5A /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		CBD2302F1DD27E8300B60A5A /* Bit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bit.swift; sourceTree = "<group>"; };
+		CBD230301DD27E8300B60A5A /* BlockCipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockCipher.swift; sourceTree = "<group>"; };
+		CBD230321DD27E8300B60A5A /* BlockMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockMode.swift; sourceTree = "<group>"; };
+		CBD230331DD27E8300B60A5A /* BlockModeOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockModeOptions.swift; sourceTree = "<group>"; };
+		CBD230341DD27E8300B60A5A /* BlockModeWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockModeWorker.swift; sourceTree = "<group>"; };
+		CBD230351DD27E8300B60A5A /* CBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBC.swift; sourceTree = "<group>"; };
+		CBD230361DD27E8300B60A5A /* CFB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFB.swift; sourceTree = "<group>"; };
+		CBD230371DD27E8300B60A5A /* CTR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTR.swift; sourceTree = "<group>"; };
+		CBD230381DD27E8300B60A5A /* ECB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECB.swift; sourceTree = "<group>"; };
+		CBD230391DD27E8300B60A5A /* OFB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFB.swift; sourceTree = "<group>"; };
+		CBD2303A1DD27E8300B60A5A /* PCBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCBC.swift; sourceTree = "<group>"; };
+		CBD2303B1DD27E8300B60A5A /* RandomAccessBlockModeWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomAccessBlockModeWorker.swift; sourceTree = "<group>"; };
+		CBD2303C1DD27E8300B60A5A /* Blowfish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blowfish.swift; sourceTree = "<group>"; };
+		CBD2303D1DD27E8300B60A5A /* BytesSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BytesSequence.swift; sourceTree = "<group>"; };
+		CBD2303E1DD27E8300B60A5A /* ChaCha20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaCha20.swift; sourceTree = "<group>"; };
+		CBD2303F1DD27E8300B60A5A /* Checksum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checksum.swift; sourceTree = "<group>"; };
+		CBD230401DD27E8300B60A5A /* Cipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cipher.swift; sourceTree = "<group>"; };
+		CBD230411DD27E8300B60A5A /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		CBD230421DD27E8300B60A5A /* Cryptors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cryptors.swift; sourceTree = "<group>"; };
+		CBD230431DD27E8300B60A5A /* CSArrayType+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CSArrayType+Extensions.swift"; sourceTree = "<group>"; };
+		CBD230441DD27E8300B60A5A /* Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digest.swift; sourceTree = "<group>"; };
+		CBD230451DD27E8300B60A5A /* DigestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigestType.swift; sourceTree = "<group>"; };
+		CBD230471DD27E8300B60A5A /* AES+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AES+Foundation.swift"; sourceTree = "<group>"; };
+		CBD230481DD27E8300B60A5A /* Blowfish+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Blowfish+Foundation.swift"; sourceTree = "<group>"; };
+		CBD230491DD27E8300B60A5A /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
+		CBD2304A1DD27E8300B60A5A /* CSArrayType+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CSArrayType+Foundation.swift"; sourceTree = "<group>"; };
+		CBD2304B1DD27E8300B60A5A /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		CBD2304C1DD27E8300B60A5A /* HMAC+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HMAC+Foundation.swift"; sourceTree = "<group>"; };
+		CBD2304D1DD27E8300B60A5A /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rabbit+Foundation.swift"; sourceTree = "<group>"; };
+		CBD2304E1DD27E8300B60A5A /* String+FoundationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FoundationExtension.swift"; sourceTree = "<group>"; };
+		CBD2304F1DD27E8300B60A5A /* Utils+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Utils+Foundation.swift"; sourceTree = "<group>"; };
+		CBD230501DD27E8300B60A5A /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		CBD230511DD27E8300B60A5A /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		CBD230521DD27E8300B60A5A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD230531DD27E8300B60A5A /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		CBD230541DD27E8300B60A5A /* IntegerConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerConvertible.swift; sourceTree = "<group>"; };
+		CBD230551DD27E8300B60A5A /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		CBD230561DD27E8300B60A5A /* NoPadding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoPadding.swift; sourceTree = "<group>"; };
+		CBD230571DD27E8300B60A5A /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		CBD230581DD27E8300B60A5A /* Padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		CBD2305A1DD27E8300B60A5A /* PBKDF1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBKDF1.swift; sourceTree = "<group>"; };
+		CBD2305B1DD27E8300B60A5A /* PBKDF2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBKDF2.swift; sourceTree = "<group>"; };
+		CBD2305C1DD27E8300B60A5A /* PKCS5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKCS5.swift; sourceTree = "<group>"; };
+		CBD2305D1DD27E8300B60A5A /* PKCS7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKCS7.swift; sourceTree = "<group>"; };
+		CBD2305E1DD27E8300B60A5A /* Poly1305.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poly1305.swift; sourceTree = "<group>"; };
+		CBD2305F1DD27E8300B60A5A /* Rabbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rabbit.swift; sourceTree = "<group>"; };
+		CBD230601DD27E8300B60A5A /* RandomAccessCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomAccessCryptor.swift; sourceTree = "<group>"; };
+		CBD230611DD27E8300B60A5A /* RandomBytesSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomBytesSequence.swift; sourceTree = "<group>"; };
+		CBD230621DD27E8300B60A5A /* SecureBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureBytes.swift; sourceTree = "<group>"; };
+		CBD230631DD27E8300B60A5A /* SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
+		CBD230641DD27E8300B60A5A /* SHA2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA2.swift; sourceTree = "<group>"; };
+		CBD230651DD27E8300B60A5A /* SHA3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA3.swift; sourceTree = "<group>"; };
+		CBD230661DD27E8300B60A5A /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		CBD230671DD27E8300B60A5A /* UInt8+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt8+Extension.swift"; sourceTree = "<group>"; };
+		CBD230681DD27E8300B60A5A /* UInt16+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt16+Extension.swift"; sourceTree = "<group>"; };
+		CBD230691DD27E8300B60A5A /* UInt32+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt32+Extension.swift"; sourceTree = "<group>"; };
+		CBD2306A1DD27E8300B60A5A /* UInt64+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt64+Extension.swift"; sourceTree = "<group>"; };
+		CBD2306B1DD27E8300B60A5A /* Updatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
+		CBD2306C1DD27E8300B60A5A /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CBD2306D1DD27E8300B60A5A /* ZeroPadding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZeroPadding.swift; sourceTree = "<group>"; };
+		CBD230AD1DD2805300B60A5A /* Authenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		CBD230AF1DD280E100B60A5A /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		CBD230B11DD2820600B60A5A /* TicketTechnician.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketTechnician.swift; sourceTree = "<group>"; };
+		CBD230B31DD282FD00B60A5A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CBD230B51DD283C400B60A5A /* MaterialItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialItem.swift; sourceTree = "<group>"; };
+		CBD230B71DD2864300B60A5A /* CheckListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListItem.swift; sourceTree = "<group>"; };
+		CBD230B91DD28B9800B60A5A /* DayTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTime.swift; sourceTree = "<group>"; };
+		CBD230BB1DD28BC100B60A5A /* WeekTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekTime.swift; sourceTree = "<group>"; };
+		CBD230C01DD4E97000B60A5A /* TechnicianDataFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnicianDataFetch.swift; sourceTree = "<group>"; };
+		E455B2021DED8FD3003346D7 /* NoTicketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoTicketCell.swift; path = Classes/Cells/NoTicketCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B37118821DBFD072001B559E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE6D821DD224C100B8B85A /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B371187C1DBFD072001B559E = {
+			isa = PBXGroup;
+			children = (
+				B371189F1DBFD2ED001B559E /* Frameworks */,
+				B37118871DBFD072001B559E /* Scott */,
+				B37118861DBFD072001B559E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B37118861DBFD072001B559E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B37118851DBFD072001B559E /* Scott.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B37118871DBFD072001B559E /* Scott */ = {
+			isa = PBXGroup;
+			children = (
+				B37118A51DBFDD1D001B559E /* Data */,
+				B37118A21DBFD7B3001B559E /* Cell */,
+				B371189E1DBFD2CC001B559E /* Libs */,
+				B371189D1DBFD2BD001B559E /* Classes */,
+				B37118881DBFD072001B559E /* AppDelegate.swift */,
+				B3DD1C9D1DC7430000E761DE /* Scott-Bridging-Header.h */,
+				B371188C1DBFD073001B559E /* Main.storyboard */,
+				B37118921DBFD073001B559E /* Assets.xcassets */,
+				B37118941DBFD073001B559E /* LaunchScreen.storyboard */,
+				B37118971DBFD073001B559E /* Info.plist */,
+				B371188F1DBFD073001B559E /* Scott.xcdatamodeld */,
+			);
+			path = Scott;
+			sourceTree = "<group>";
+		};
+		B371189D1DBFD2BD001B559E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B37118A31DBFDA5D001B559E /* DashboardViewController.swift */,
+				B37118B01DC0AF6D001B559E /* JobViewController.swift */,
+				B3BFBBD91DC3578E00BDF96F /* JobCompleteVC.swift */,
+				B3BFBBDB1DC357C200BDF96F /* SignatureViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B371189E1DBFD2CC001B559E /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE6D211DD2247B00B8B85A /* PingPong */,
+				B3DD1C951DC7429400E761DE /* PPSSignatureView */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		B371189F1DBFD2ED001B559E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE6D811DD224C100B8B85A /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B37118A21DBFD7B3001B559E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B37118AE1DC04A17001B559E /* JobCell.swift */,
+				B37118AC1DC049F9001B559E /* ScheduleCell.swift */,
+				E455B2021DED8FD3003346D7 /* NoTicketCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		B37118A51DBFDD1D001B559E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CBD230BD1DD4DF7100B60A5A /* Sync Operations */,
+				B37118A61DBFDD28001B559E /* Globals.swift */,
+				CBD230AF1DD280E100B60A5A /* Ticket.swift */,
+				CBD230B11DD2820600B60A5A /* TicketTechnician.swift */,
+				CBD230B31DD282FD00B60A5A /* User.swift */,
+				CBD230B51DD283C400B60A5A /* MaterialItem.swift */,
+				CBD230B71DD2864300B60A5A /* CheckListItem.swift */,
+				CBD230B91DD28B9800B60A5A /* DayTime.swift */,
+				CBD230BB1DD28BC100B60A5A /* WeekTime.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		B3DD1C951DC7429400E761DE /* PPSSignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				B3DD1C9A1DC742CC00E761DE /* PPSSignatureView.h */,
+				B3DD1C9B1DC742CC00E761DE /* PPSSignatureView.m */,
+			);
+			name = PPSSignatureView;
+			path = Libs/PPSSignatureView;
+			sourceTree = "<group>";
+		};
+		CBCE6D211DD2247B00B8B85A /* PingPong */ = {
+			isa = PBXGroup;
+			children = (
+				CB23967A1DDD78DC006BBB3F /* SyncTask.swift */,
+				CBCE6D221DD2247B00B8B85A /* Alamofire */,
+				CBCE6D351DD2247B00B8B85A /* BackgroundSync.swift */,
+				CBCE6D361DD2247B00B8B85A /* BRDatabase */,
+				CBCE6D3B1DD2247B00B8B85A /* CryptoSwift */,
+				CBCE6D3E1DD2247B00B8B85A /* DataStore.swift */,
+				CBCE6D3F1DD2247B00B8B85A /* FileDelete.swift */,
+				CBCE6D401DD2247B00B8B85A /* FileUpload.swift */,
+				CBCE6D411DD2247B00B8B85A /* FMDB */,
+				CBCE6D4F1DD2247B00B8B85A /* JsonObject.swift */,
+				CBCE6D501DD2247B00B8B85A /* NSDate+Utilities.swift */,
+				CBCE6D511DD2247B00B8B85A /* PingPong.swift */,
+				CBCE6D521DD2247B00B8B85A /* README.md */,
+				CBCE6D531DD2247B00B8B85A /* Scripts */,
+				CBCE6D551DD2247B00B8B85A /* StashObject.swift */,
+				CBCE6D561DD2247B00B8B85A /* SwiftyJSON */,
+				CBCE6D581DD2247B00B8B85A /* SyncObject.swift */,
+			);
+			name = PingPong;
+			path = Libs/PingPong;
+			sourceTree = "<group>";
+		};
+		CBCE6D221DD2247B00B8B85A /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE6D231DD2247B00B8B85A /* AFError.swift */,
+				CBCE6D241DD2247B00B8B85A /* Alamofire.h */,
+				CBCE6D251DD2247B00B8B85A /* Alamofire.swift */,
+				CBCE6D261DD2247B00B8B85A /* DispatchQueue+Alamofire.swift */,
+				CBCE6D271DD2247B00B8B85A /* MultipartFormData.swift */,
+				CBCE6D281DD2247B00B8B85A /* NetworkReachabilityManager.swift */,
+				CBCE6D291DD2247B00B8B85A /* Notifications.swift */,
+				CBCE6D2A1DD2247B00B8B85A /* ParameterEncoding.swift */,
+				CBCE6D2B1DD2247B00B8B85A /* Request.swift */,
+				CBCE6D2C1DD2247B00B8B85A /* Response.swift */,
+				CBCE6D2D1DD2247B00B8B85A /* ResponseSerialization.swift */,
+				CBCE6D2E1DD2247B00B8B85A /* Result.swift */,
+				CBCE6D2F1DD2247B00B8B85A /* ServerTrustPolicy.swift */,
+				CBCE6D301DD2247B00B8B85A /* SessionDelegate.swift */,
+				CBCE6D311DD2247B00B8B85A /* SessionManager.swift */,
+				CBCE6D321DD2247B00B8B85A /* TaskDelegate.swift */,
+				CBCE6D331DD2247B00B8B85A /* Timeline.swift */,
+				CBCE6D341DD2247B00B8B85A /* Validation.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		CBCE6D361DD2247B00B8B85A /* BRDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE6D371DD2247B00B8B85A /* BRDatabase.h */,
+				CBCE6D381DD2247B00B8B85A /* BRDatabase.m */,
+				CBCE6D391DD2247B00B8B85A /* FMDatabase+BRDatabaseExtensions.h */,
+				CBCE6D3A1DD2247B00B8B85A /* FMDatabase+BRDatabaseExtensions.m */,
+			);
+			path = BRDatabase;
+			sourceTree = "<group>";
+		};
+		CBCE6D3B1DD2247B00B8B85A /* CryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CBD230AD1DD2805300B60A5A /* Authenticator.swift */,
+				CBD2302C1DD27E8300B60A5A /* AES.swift */,
+				CBD2302D1DD27E8300B60A5A /* Array+Extension.swift */,
+				CBD2302F1DD27E8300B60A5A /* Bit.swift */,
+				CBD230301DD27E8300B60A5A /* BlockCipher.swift */,
+				CBD230311DD27E8300B60A5A /* BlockMode */,
+				CBD2303C1DD27E8300B60A5A /* Blowfish.swift */,
+				CBD2303D1DD27E8300B60A5A /* BytesSequence.swift */,
+				CBD2303E1DD27E8300B60A5A /* ChaCha20.swift */,
+				CBD2303F1DD27E8300B60A5A /* Checksum.swift */,
+				CBD230401DD27E8300B60A5A /* Cipher.swift */,
+				CBD230411DD27E8300B60A5A /* Collection+Extension.swift */,
+				CBD230421DD27E8300B60A5A /* Cryptors.swift */,
+				CBD230431DD27E8300B60A5A /* CSArrayType+Extensions.swift */,
+				CBD230441DD27E8300B60A5A /* Digest.swift */,
+				CBD230451DD27E8300B60A5A /* DigestType.swift */,
+				CBD230461DD27E8300B60A5A /* Foundation */,
+				CBD230501DD27E8300B60A5A /* Generics.swift */,
+				CBD230511DD27E8300B60A5A /* HMAC.swift */,
+				CBD230521DD27E8300B60A5A /* Info.plist */,
+				CBD230531DD27E8300B60A5A /* Int+Extension.swift */,
+				CBD230541DD27E8300B60A5A /* IntegerConvertible.swift */,
+				CBD230551DD27E8300B60A5A /* MD5.swift */,
+				CBD230561DD27E8300B60A5A /* NoPadding.swift */,
+				CBD230571DD27E8300B60A5A /* Operators.swift */,
+				CBD230581DD27E8300B60A5A /* Padding.swift */,
+				CBD230591DD27E8300B60A5A /* PKCS5 */,
+				CBD2305D1DD27E8300B60A5A /* PKCS7.swift */,
+				CBD2305E1DD27E8300B60A5A /* Poly1305.swift */,
+				CBD2305F1DD27E8300B60A5A /* Rabbit.swift */,
+				CBD230601DD27E8300B60A5A /* RandomAccessCryptor.swift */,
+				CBD230611DD27E8300B60A5A /* RandomBytesSequence.swift */,
+				CBD230621DD27E8300B60A5A /* SecureBytes.swift */,
+				CBD230631DD27E8300B60A5A /* SHA1.swift */,
+				CBD230641DD27E8300B60A5A /* SHA2.swift */,
+				CBD230651DD27E8300B60A5A /* SHA3.swift */,
+				CBD230661DD27E8300B60A5A /* String+Extension.swift */,
+				CBD230671DD27E8300B60A5A /* UInt8+Extension.swift */,
+				CBD230681DD27E8300B60A5A /* UInt16+Extension.swift */,
+				CBD230691DD27E8300B60A5A /* UInt32+Extension.swift */,
+				CBD2306A1DD27E8300B60A5A /* UInt64+Extension.swift */,
+				CBD2306B1DD27E8300B60A5A /* Updatable.swift */,
+				CBD2306C1DD27E8300B60A5A /* Utils.swift */,
+				CBD2306D1DD27E8300B60A5A /* ZeroPadding.swift */,
+				CBCE6D3C1DD2247B00B8B85A /* CryptoBot.swift */,
+			);
+			path = CryptoSwift;
+			sourceTree = "<group>";
+		};
+		CBCE6D411DD2247B00B8B85A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE6D421DD2247B00B8B85A /* FMDatabase.h */,
+				CBCE6D431DD2247B00B8B85A /* FMDatabase.m */,
+				CBCE6D441DD2247B00B8B85A /* FMDatabaseAdditions.h */,
+				CBCE6D451DD2247B00B8B85A /* FMDatabaseAdditions.m */,
+				CBCE6D461DD2247B00B8B85A /* FMDatabaseAdditionsVariadic.swift */,
+				CBCE6D471DD2247B00B8B85A /* FMDatabasePool.h */,
+				CBCE6D481DD2247B00B8B85A /* FMDatabasePool.m */,
+				CBCE6D491DD2247B00B8B85A /* FMDatabaseQueue.h */,
+				CBCE6D4A1DD2247B00B8B85A /* FMDatabaseQueue.m */,
+				CBCE6D4B1DD2247B00B8B85A /* FMDatabaseVariadic.swift */,
+				CBCE6D4C1DD2247B00B8B85A /* FMDB.h */,
+				CBCE6D4D1DD2247B00B8B85A /* FMResultSet.h */,
+				CBCE6D4E1DD2247B00B8B85A /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		CBCE6D531DD2247B00B8B85A /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE6D541DD2247B00B8B85A /* DatabaseInstall.sql */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		CBCE6D561DD2247B00B8B85A /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE6D571DD2247B00B8B85A /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		CBD230311DD27E8300B60A5A /* BlockMode */ = {
+			isa = PBXGroup;
+			children = (
+				CBD230321DD27E8300B60A5A /* BlockMode.swift */,
+				CBD230331DD27E8300B60A5A /* BlockModeOptions.swift */,
+				CBD230341DD27E8300B60A5A /* BlockModeWorker.swift */,
+				CBD230351DD27E8300B60A5A /* CBC.swift */,
+				CBD230361DD27E8300B60A5A /* CFB.swift */,
+				CBD230371DD27E8300B60A5A /* CTR.swift */,
+				CBD230381DD27E8300B60A5A /* ECB.swift */,
+				CBD230391DD27E8300B60A5A /* OFB.swift */,
+				CBD2303A1DD27E8300B60A5A /* PCBC.swift */,
+				CBD2303B1DD27E8300B60A5A /* RandomAccessBlockModeWorker.swift */,
+			);
+			path = BlockMode;
+			sourceTree = "<group>";
+		};
+		CBD230461DD27E8300B60A5A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				CBD230471DD27E8300B60A5A /* AES+Foundation.swift */,
+				CBD230481DD27E8300B60A5A /* Blowfish+Foundation.swift */,
+				CBD230491DD27E8300B60A5A /* ChaCha20+Foundation.swift */,
+				CBD2304A1DD27E8300B60A5A /* CSArrayType+Foundation.swift */,
+				CBD2304B1DD27E8300B60A5A /* Data+Extension.swift */,
+				CBD2304C1DD27E8300B60A5A /* HMAC+Foundation.swift */,
+				CBD2304D1DD27E8300B60A5A /* Rabbit+Foundation.swift */,
+				CBD2304E1DD27E8300B60A5A /* String+FoundationExtension.swift */,
+				CBD2304F1DD27E8300B60A5A /* Utils+Foundation.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		CBD230591DD27E8300B60A5A /* PKCS5 */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2305A1DD27E8300B60A5A /* PBKDF1.swift */,
+				CBD2305B1DD27E8300B60A5A /* PBKDF2.swift */,
+				CBD2305C1DD27E8300B60A5A /* PKCS5.swift */,
+			);
+			path = PKCS5;
+			sourceTree = "<group>";
+		};
+		CBD230BD1DD4DF7100B60A5A /* Sync Operations */ = {
+			isa = PBXGroup;
+			children = (
+				CBD230C01DD4E97000B60A5A /* TechnicianDataFetch.swift */,
+			);
+			name = "Sync Operations";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B37118841DBFD072001B559E /* Scott */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B371189A1DBFD073001B559E /* Build configuration list for PBXNativeTarget "Scott" */;
+			buildPhases = (
+				B37118811DBFD072001B559E /* Sources */,
+				B37118821DBFD072001B559E /* Frameworks */,
+				B37118831DBFD072001B559E /* Resources */,
+				CBCE6D881DD2292400B8B85A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scott;
+			productName = Scott;
+			productReference = B37118851DBFD072001B559E /* Scott.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B371187D1DBFD072001B559E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Thomas Maas";
+				TargetAttributes = {
+					B37118841DBFD072001B559E = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B37118801DBFD072001B559E /* Build configuration list for PBXProject "Scott" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B371187C1DBFD072001B559E;
+			productRefGroup = B37118861DBFD072001B559E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B37118841DBFD072001B559E /* Scott */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B37118831DBFD072001B559E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37118961DBFD073001B559E /* LaunchScreen.storyboard in Resources */,
+				CBCE6D7D1DD2247B00B8B85A /* DatabaseInstall.sql in Resources */,
+				B37118931DBFD073001B559E /* Assets.xcassets in Resources */,
+				CBD230921DD27E8300B60A5A /* Info.plist in Resources */,
+				B371188E1DBFD073001B559E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B37118811DBFD072001B559E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE6D791DD2247B00B8B85A /* JsonObject.swift in Sources */,
+				B37118A71DBFDD28001B559E /* Globals.swift in Sources */,
+				CBD230951DD27E8300B60A5A /* MD5.swift in Sources */,
+				B3DD1C9C1DC742CC00E761DE /* PPSSignatureView.m in Sources */,
+				CBD2307B1DD27E8300B60A5A /* PCBC.swift in Sources */,
+				CBD230A91DD27E8300B60A5A /* UInt64+Extension.swift in Sources */,
+				CBCE6D701DD2247B00B8B85A /* FileDelete.swift in Sources */,
+				CBD230801DD27E8300B60A5A /* Checksum.swift in Sources */,
+				CBCE6D7F1DD2247B00B8B85A /* SwiftyJSON.swift in Sources */,
+				CBD230781DD27E8300B60A5A /* CTR.swift in Sources */,
+				CBD2309B1DD27E8300B60A5A /* PKCS5.swift in Sources */,
+				CBD2306E1DD27E8300B60A5A /* AES.swift in Sources */,
+				CBCE6D721DD2247B00B8B85A /* FMDatabase.m in Sources */,
+				CBD230981DD27E8300B60A5A /* Padding.swift in Sources */,
+				CBCE6D6C1DD2247B00B8B85A /* FMDatabase+BRDatabaseExtensions.m in Sources */,
+				CBD230721DD27E8300B60A5A /* BlockCipher.swift in Sources */,
+				CBD230A31DD27E8300B60A5A /* SHA2.swift in Sources */,
+				CBCE6D5C1DD2247B00B8B85A /* MultipartFormData.swift in Sources */,
+				CBCE6D621DD2247B00B8B85A /* ResponseSerialization.swift in Sources */,
+				CBCE6D741DD2247B00B8B85A /* FMDatabaseAdditionsVariadic.swift in Sources */,
+				CBCE6D691DD2247B00B8B85A /* Validation.swift in Sources */,
+				CBD230891DD27E8300B60A5A /* ChaCha20+Foundation.swift in Sources */,
+				CBCE6D6B1DD2247B00B8B85A /* BRDatabase.m in Sources */,
+				B37118B11DC0AF6D001B559E /* JobViewController.swift in Sources */,
+				CBCE6D671DD2247B00B8B85A /* TaskDelegate.swift in Sources */,
+				CBD230931DD27E8300B60A5A /* Int+Extension.swift in Sources */,
+				B37118AF1DC04A17001B559E /* JobCell.swift in Sources */,
+				CBCE6D801DD2247B00B8B85A /* SyncObject.swift in Sources */,
+				CBD230B01DD280E100B60A5A /* Ticket.swift in Sources */,
+				CB23967B1DDD78DC006BBB3F /* SyncTask.swift in Sources */,
+				CBCE6D611DD2247B00B8B85A /* Response.swift in Sources */,
+				CBD230821DD27E8300B60A5A /* Collection+Extension.swift in Sources */,
+				B3BFBBDC1DC357C200BDF96F /* SignatureViewController.swift in Sources */,
+				CBD2309A1DD27E8300B60A5A /* PBKDF2.swift in Sources */,
+				CBD230731DD27E8300B60A5A /* BlockMode.swift in Sources */,
+				CBD230911DD27E8300B60A5A /* HMAC.swift in Sources */,
+				B3BFBBDA1DC3578E00BDF96F /* JobCompleteVC.swift in Sources */,
+				CBCE6D681DD2247B00B8B85A /* Timeline.swift in Sources */,
+				CBCE6D761DD2247B00B8B85A /* FMDatabaseQueue.m in Sources */,
+				CBD230B61DD283C400B60A5A /* MaterialItem.swift in Sources */,
+				CBD230AC1DD27E8300B60A5A /* ZeroPadding.swift in Sources */,
+				CBD230741DD27E8300B60A5A /* BlockModeOptions.swift in Sources */,
+				CBD2307A1DD27E8300B60A5A /* OFB.swift in Sources */,
+				CBCE6D601DD2247B00B8B85A /* Request.swift in Sources */,
+				CBD230751DD27E8300B60A5A /* BlockModeWorker.swift in Sources */,
+				CBD230BA1DD28B9800B60A5A /* DayTime.swift in Sources */,
+				CBD230A61DD27E8300B60A5A /* UInt8+Extension.swift in Sources */,
+				CBD230711DD27E8300B60A5A /* Bit.swift in Sources */,
+				CBCE6D5F1DD2247B00B8B85A /* ParameterEncoding.swift in Sources */,
+				CBD230AE1DD2805300B60A5A /* Authenticator.swift in Sources */,
+				CBCE6D5B1DD2247B00B8B85A /* DispatchQueue+Alamofire.swift in Sources */,
+				CBCE6D6F1DD2247B00B8B85A /* DataStore.swift in Sources */,
+				CBD230901DD27E8300B60A5A /* Generics.swift in Sources */,
+				CBD2307E1DD27E8300B60A5A /* BytesSequence.swift in Sources */,
+				CBCE6D7B1DD2247B00B8B85A /* PingPong.swift in Sources */,
+				CBD230B81DD2864300B60A5A /* CheckListItem.swift in Sources */,
+				CBCE6D771DD2247B00B8B85A /* FMDatabaseVariadic.swift in Sources */,
+				CBD2308D1DD27E8300B60A5A /* Rabbit+Foundation.swift in Sources */,
+				CBD230761DD27E8300B60A5A /* CBC.swift in Sources */,
+				CBD230961DD27E8300B60A5A /* NoPadding.swift in Sources */,
+				CBD230A21DD27E8300B60A5A /* SHA1.swift in Sources */,
+				CBCE6D751DD2247B00B8B85A /* FMDatabasePool.m in Sources */,
+				CBD2307F1DD27E8300B60A5A /* ChaCha20.swift in Sources */,
+				CBD230971DD27E8300B60A5A /* Operators.swift in Sources */,
+				CBD2309F1DD27E8300B60A5A /* RandomAccessCryptor.swift in Sources */,
+				CBD230881DD27E8300B60A5A /* Blowfish+Foundation.swift in Sources */,
+				CBD2307D1DD27E8300B60A5A /* Blowfish.swift in Sources */,
+				CBCE6D651DD2247B00B8B85A /* SessionDelegate.swift in Sources */,
+				CBCE6D5E1DD2247B00B8B85A /* Notifications.swift in Sources */,
+				CBD230941DD27E8300B60A5A /* IntegerConvertible.swift in Sources */,
+				CBD2306F1DD27E8300B60A5A /* Array+Extension.swift in Sources */,
+				CBD230841DD27E8300B60A5A /* CSArrayType+Extensions.swift in Sources */,
+				CBD2308A1DD27E8300B60A5A /* CSArrayType+Foundation.swift in Sources */,
+				CBD230771DD27E8300B60A5A /* CFB.swift in Sources */,
+				CBD230861DD27E8300B60A5A /* DigestType.swift in Sources */,
+				CBCE6D661DD2247B00B8B85A /* SessionManager.swift in Sources */,
+				CBD2309D1DD27E8300B60A5A /* Poly1305.swift in Sources */,
+				CBCE6D731DD2247B00B8B85A /* FMDatabaseAdditions.m in Sources */,
+				CBD230B41DD282FD00B60A5A /* User.swift in Sources */,
+				CBD230991DD27E8300B60A5A /* PBKDF1.swift in Sources */,
+				CBD2307C1DD27E8300B60A5A /* RandomAccessBlockModeWorker.swift in Sources */,
+				CBCE6D5A1DD2247B00B8B85A /* Alamofire.swift in Sources */,
+				CBCE6D6D1DD2247B00B8B85A /* CryptoBot.swift in Sources */,
+				CBD230A71DD27E8300B60A5A /* UInt16+Extension.swift in Sources */,
+				CBD230BC1DD28BC100B60A5A /* WeekTime.swift in Sources */,
+				CBCE6D711DD2247B00B8B85A /* FileUpload.swift in Sources */,
+				CBD230791DD27E8300B60A5A /* ECB.swift in Sources */,
+				E455B2031DED8FD3003346D7 /* NoTicketCell.swift in Sources */,
+				CBD230831DD27E8300B60A5A /* Cryptors.swift in Sources */,
+				B37118891DBFD072001B559E /* AppDelegate.swift in Sources */,
+				CBD230A81DD27E8300B60A5A /* UInt32+Extension.swift in Sources */,
+				CBCE6D6A1DD2247B00B8B85A /* BackgroundSync.swift in Sources */,
+				CBD2308C1DD27E8300B60A5A /* HMAC+Foundation.swift in Sources */,
+				CBD230AA1DD27E8300B60A5A /* Updatable.swift in Sources */,
+				CBD230A41DD27E8300B60A5A /* SHA3.swift in Sources */,
+				CBCE6D5D1DD2247B00B8B85A /* NetworkReachabilityManager.swift in Sources */,
+				CBD230A01DD27E8300B60A5A /* RandomBytesSequence.swift in Sources */,
+				CBD2308E1DD27E8300B60A5A /* String+FoundationExtension.swift in Sources */,
+				CBD230B21DD2820600B60A5A /* TicketTechnician.swift in Sources */,
+				CBCE6D7E1DD2247B00B8B85A /* StashObject.swift in Sources */,
+				CBD230A51DD27E8300B60A5A /* String+Extension.swift in Sources */,
+				CBD2308B1DD27E8300B60A5A /* Data+Extension.swift in Sources */,
+				CBD230811DD27E8300B60A5A /* Cipher.swift in Sources */,
+				B37118A41DBFDA5D001B559E /* DashboardViewController.swift in Sources */,
+				CBD2309C1DD27E8300B60A5A /* PKCS7.swift in Sources */,
+				CBD230AB1DD27E8300B60A5A /* Utils.swift in Sources */,
+				CBCE6D7A1DD2247B00B8B85A /* NSDate+Utilities.swift in Sources */,
+				CBCE6D641DD2247B00B8B85A /* ServerTrustPolicy.swift in Sources */,
+				B37118911DBFD073001B559E /* Scott.xcdatamodeld in Sources */,
+				CBD2308F1DD27E8300B60A5A /* Utils+Foundation.swift in Sources */,
+				CBD230C11DD4E97000B60A5A /* TechnicianDataFetch.swift in Sources */,
+				CBCE6D631DD2247B00B8B85A /* Result.swift in Sources */,
+				CBD230871DD27E8300B60A5A /* AES+Foundation.swift in Sources */,
+				CBCE6D781DD2247B00B8B85A /* FMResultSet.m in Sources */,
+				CBD2309E1DD27E8300B60A5A /* Rabbit.swift in Sources */,
+				CBD230A11DD27E8300B60A5A /* SecureBytes.swift in Sources */,
+				CBCE6D7C1DD2247B00B8B85A /* README.md in Sources */,
+				B37118AD1DC049F9001B559E /* ScheduleCell.swift in Sources */,
+				CBCE6D591DD2247B00B8B85A /* AFError.swift in Sources */,
+				CBD230851DD27E8300B60A5A /* Digest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B371188C1DBFD073001B559E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B371188D1DBFD073001B559E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B37118941DBFD073001B559E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B37118951DBFD073001B559E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B37118981DBFD073001B559E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B37118991DBFD073001B559E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B371189B1DBFD073001B559E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: DongMei Gao (UVY9CC44H2)";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scott/Libs/PingPong/CryptoSwift",
+				);
+				INFOPLIST_FILE = Scott/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Tmfltest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = testappDevProv;
+				SWIFT_OBJC_BRIDGING_HEADER = "Scott/Scott-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B371189C1DBFD073001B559E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: DongMei Gao (UVY9CC44H2)";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scott/Libs/PingPong/CryptoSwift",
+				);
+				INFOPLIST_FILE = Scott/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Tmfltest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = testappDevProv;
+				SWIFT_OBJC_BRIDGING_HEADER = "Scott/Scott-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B37118801DBFD072001B559E /* Build configuration list for PBXProject "Scott" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37118981DBFD073001B559E /* Debug */,
+				B37118991DBFD073001B559E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B371189A1DBFD073001B559E /* Build configuration list for PBXNativeTarget "Scott" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B371189B1DBFD073001B559E /* Debug */,
+				B371189C1DBFD073001B559E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B371188F1DBFD073001B559E /* Scott.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B37118901DBFD073001B559E /* Scott.xcdatamodel */,
+			);
+			currentVersion = B37118901DBFD073001B559E /* Scott.xcdatamodel */;
+			path = Scott.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B371187D1DBFD072001B559E /* Project object */;
+}
